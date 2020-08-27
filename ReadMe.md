@@ -15,7 +15,7 @@
  - 图像随机旋转 裁切
  - 图像抖动 imgaug::water
  - 图像加云(模拟摄像头失真)
-###2.2 运行 trainBigModel.py训练ls模型 
+###2.2 运行 trainBigModel.py训练模型 
 这里训练的模型比较大
 ###2.3 运行trainDistillation.py
 使用大模型和小模型联合训练 实现模型压缩
