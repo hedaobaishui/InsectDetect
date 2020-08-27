@@ -1,0 +1,353 @@
+2020-07-16 20:59:08,612 Epoch: [0][0/117]	Time 5.046s (5.046s)	Speed 19.8 samples/s	Data 3.259s (3.259s)	Loss 1.17088 (1.17088)	Accuracy@1 32.000 (32.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 20:59:14,086 Epoch: [0][20/117]	Time 0.267s (0.501s)	Speed 374.2 samples/s	Data 0.001s (0.156s)	Loss 0.40372 (0.60060)	Accuracy@1 85.000 (75.333)	Accuracy@5 100.000 (100.000)	
+2020-07-16 20:59:19,519 Epoch: [0][40/117]	Time 0.272s (0.389s)	Speed 367.3 samples/s	Data 0.000s (0.080s)	Loss 0.27590 (0.46952)	Accuracy@1 92.000 (81.463)	Accuracy@5 100.000 (100.000)	
+2020-07-16 20:59:24,965 Epoch: [0][60/117]	Time 0.273s (0.351s)	Speed 366.7 samples/s	Data 0.000s (0.054s)	Loss 0.25735 (0.39917)	Accuracy@1 89.000 (84.393)	Accuracy@5 100.000 (100.000)	
+2020-07-16 20:59:30,379 Epoch: [0][80/117]	Time 0.274s (0.331s)	Speed 365.3 samples/s	Data 0.001s (0.040s)	Loss 0.19403 (0.35548)	Accuracy@1 92.000 (86.099)	Accuracy@5 100.000 (100.000)	
+2020-07-16 20:59:35,795 Epoch: [0][100/117]	Time 0.271s (0.319s)	Speed 369.5 samples/s	Data 0.000s (0.032s)	Loss 0.19464 (0.32623)	Accuracy@1 93.000 (87.337)	Accuracy@5 100.000 (100.000)	
+2020-07-16 20:59:44,295 Test: Time 0.397	Loss 0.3003	Error@1 11.111	Error@5 0.000	Accuracy@1 88.889	Accuracy@5 100.000	
+2020-07-16 20:59:44,295 => saving checkpoint to log
+2020-07-16 20:59:47,832 Epoch: [1][0/117]	Time 3.414s (3.414s)	Speed 29.3 samples/s	Data 3.124s (3.124s)	Loss 0.13800 (0.13800)	Accuracy@1 95.000 (95.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 20:59:53,223 Epoch: [1][20/117]	Time 0.268s (0.419s)	Speed 373.8 samples/s	Data 0.000s (0.149s)	Loss 0.14865 (0.15912)	Accuracy@1 91.000 (94.381)	Accuracy@5 100.000 (100.000)	
+2020-07-16 20:59:58,614 Epoch: [1][40/117]	Time 0.268s (0.346s)	Speed 372.7 samples/s	Data 0.000s (0.076s)	Loss 0.08509 (0.15135)	Accuracy@1 95.000 (94.585)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:00:03,985 Epoch: [1][60/117]	Time 0.267s (0.321s)	Speed 374.9 samples/s	Data 0.000s (0.051s)	Loss 0.13844 (0.14909)	Accuracy@1 96.000 (94.836)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:00:09,377 Epoch: [1][80/117]	Time 0.271s (0.308s)	Speed 369.2 samples/s	Data 0.000s (0.039s)	Loss 0.21270 (0.15845)	Accuracy@1 89.000 (94.383)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:00:14,762 Epoch: [1][100/117]	Time 0.268s (0.300s)	Speed 372.8 samples/s	Data 0.000s (0.031s)	Loss 0.23662 (0.15806)	Accuracy@1 93.000 (94.446)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:00:23,229 Test: Time 0.395	Loss 0.3185	Error@1 12.913	Error@5 0.000	Accuracy@1 87.087	Accuracy@5 100.000	
+2020-07-16 21:00:23,229 => saving checkpoint to log
+2020-07-16 21:00:26,742 Epoch: [2][0/117]	Time 3.436s (3.436s)	Speed 29.1 samples/s	Data 3.142s (3.142s)	Loss 0.14374 (0.14374)	Accuracy@1 97.000 (97.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:00:32,145 Epoch: [2][20/117]	Time 0.266s (0.421s)	Speed 376.3 samples/s	Data 0.000s (0.150s)	Loss 0.15765 (0.14979)	Accuracy@1 95.000 (95.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:00:37,493 Epoch: [2][40/117]	Time 0.268s (0.346s)	Speed 373.5 samples/s	Data 0.000s (0.077s)	Loss 0.09876 (0.13687)	Accuracy@1 95.000 (95.293)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:00:42,845 Epoch: [2][60/117]	Time 0.271s (0.320s)	Speed 369.4 samples/s	Data 0.000s (0.052s)	Loss 0.07680 (0.13274)	Accuracy@1 98.000 (95.311)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:00:48,207 Epoch: [2][80/117]	Time 0.268s (0.307s)	Speed 372.5 samples/s	Data 0.000s (0.039s)	Loss 0.10290 (0.13337)	Accuracy@1 94.000 (95.210)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:00:53,613 Epoch: [2][100/117]	Time 0.269s (0.300s)	Speed 372.1 samples/s	Data 0.000s (0.031s)	Loss 0.17001 (0.13450)	Accuracy@1 94.000 (95.257)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:01:02,174 Test: Time 0.401	Loss 0.1755	Error@1 5.806	Error@5 0.000	Accuracy@1 94.194	Accuracy@5 100.000	
+2020-07-16 21:01:02,174 => saving checkpoint to log
+2020-07-16 21:01:05,719 Epoch: [3][0/117]	Time 3.429s (3.429s)	Speed 29.2 samples/s	Data 3.136s (3.136s)	Loss 0.14524 (0.14524)	Accuracy@1 93.000 (93.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:01:11,138 Epoch: [3][20/117]	Time 0.267s (0.421s)	Speed 374.9 samples/s	Data 0.000s (0.149s)	Loss 0.07698 (0.12428)	Accuracy@1 97.000 (95.286)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:01:16,496 Epoch: [3][40/117]	Time 0.269s (0.346s)	Speed 372.1 samples/s	Data 0.000s (0.077s)	Loss 0.11909 (0.12832)	Accuracy@1 97.000 (95.122)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:01:21,868 Epoch: [3][60/117]	Time 0.268s (0.321s)	Speed 373.7 samples/s	Data 0.000s (0.052s)	Loss 0.16711 (0.12840)	Accuracy@1 96.000 (95.393)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:01:27,240 Epoch: [3][80/117]	Time 0.270s (0.308s)	Speed 370.8 samples/s	Data 0.000s (0.039s)	Loss 0.13939 (0.12989)	Accuracy@1 96.000 (95.383)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:01:32,607 Epoch: [3][100/117]	Time 0.267s (0.300s)	Speed 374.2 samples/s	Data 0.000s (0.031s)	Loss 0.13193 (0.12978)	Accuracy@1 94.000 (95.366)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:01:41,098 Test: Time 0.397	Loss 0.1670	Error@1 5.105	Error@5 0.000	Accuracy@1 94.895	Accuracy@5 100.000	
+2020-07-16 21:01:41,098 => saving checkpoint to log
+2020-07-16 21:01:44,717 Epoch: [4][0/117]	Time 3.505s (3.505s)	Speed 28.5 samples/s	Data 3.198s (3.198s)	Loss 0.18437 (0.18437)	Accuracy@1 91.000 (91.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:01:50,113 Epoch: [4][20/117]	Time 0.267s (0.424s)	Speed 374.2 samples/s	Data 0.001s (0.153s)	Loss 0.07292 (0.11949)	Accuracy@1 99.000 (95.714)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:01:55,467 Epoch: [4][40/117]	Time 0.268s (0.348s)	Speed 373.5 samples/s	Data 0.000s (0.078s)	Loss 0.07229 (0.11653)	Accuracy@1 97.000 (95.878)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:02:00,834 Epoch: [4][60/117]	Time 0.268s (0.322s)	Speed 373.5 samples/s	Data 0.001s (0.053s)	Loss 0.11407 (0.11056)	Accuracy@1 96.000 (96.016)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:02:06,197 Epoch: [4][80/117]	Time 0.269s (0.308s)	Speed 372.3 samples/s	Data 0.001s (0.040s)	Loss 0.07214 (0.11241)	Accuracy@1 98.000 (95.852)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:02:11,570 Epoch: [4][100/117]	Time 0.269s (0.301s)	Speed 371.4 samples/s	Data 0.000s (0.032s)	Loss 0.04986 (0.11250)	Accuracy@1 99.000 (95.832)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:02:20,071 Test: Time 0.398	Loss 0.2334	Error@1 6.707	Error@5 0.000	Accuracy@1 93.293	Accuracy@5 100.000	
+2020-07-16 21:02:20,071 => saving checkpoint to log
+2020-07-16 21:02:23,552 Epoch: [5][0/117]	Time 3.404s (3.404s)	Speed 29.4 samples/s	Data 3.115s (3.115s)	Loss 0.09406 (0.09406)	Accuracy@1 97.000 (97.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:02:28,953 Epoch: [5][20/117]	Time 0.270s (0.419s)	Speed 370.7 samples/s	Data 0.000s (0.149s)	Loss 0.07308 (0.11186)	Accuracy@1 96.000 (96.286)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:02:34,321 Epoch: [5][40/117]	Time 0.268s (0.346s)	Speed 373.5 samples/s	Data 0.000s (0.076s)	Loss 0.13117 (0.10780)	Accuracy@1 96.000 (96.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:02:39,681 Epoch: [5][60/117]	Time 0.267s (0.320s)	Speed 374.1 samples/s	Data 0.000s (0.051s)	Loss 0.12131 (0.10645)	Accuracy@1 94.000 (96.098)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:02:45,047 Epoch: [5][80/117]	Time 0.267s (0.307s)	Speed 374.1 samples/s	Data 0.001s (0.039s)	Loss 0.10155 (0.10446)	Accuracy@1 96.000 (96.210)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:02:50,404 Epoch: [5][100/117]	Time 0.269s (0.300s)	Speed 372.1 samples/s	Data 0.000s (0.031s)	Loss 0.05863 (0.11180)	Accuracy@1 98.000 (95.970)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:02:58,842 Test: Time 0.393	Loss 0.2527	Error@1 9.009	Error@5 0.000	Accuracy@1 90.991	Accuracy@5 100.000	
+2020-07-16 21:02:58,842 => saving checkpoint to log
+2020-07-16 21:03:02,438 Epoch: [6][0/117]	Time 3.519s (3.519s)	Speed 28.4 samples/s	Data 3.169s (3.169s)	Loss 0.07155 (0.07155)	Accuracy@1 97.000 (97.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:03:07,821 Epoch: [6][20/117]	Time 0.270s (0.424s)	Speed 370.7 samples/s	Data 0.000s (0.151s)	Loss 0.12388 (0.10485)	Accuracy@1 94.000 (95.619)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:03:13,178 Epoch: [6][40/117]	Time 0.268s (0.348s)	Speed 373.5 samples/s	Data 0.000s (0.077s)	Loss 0.03075 (0.09640)	Accuracy@1 99.000 (96.268)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:03:18,529 Epoch: [6][60/117]	Time 0.266s (0.321s)	Speed 376.2 samples/s	Data 0.000s (0.052s)	Loss 0.04668 (0.09541)	Accuracy@1 99.000 (96.410)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:03:23,888 Epoch: [6][80/117]	Time 0.269s (0.308s)	Speed 372.1 samples/s	Data 0.000s (0.039s)	Loss 0.07348 (0.09690)	Accuracy@1 96.000 (96.321)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:03:29,255 Epoch: [6][100/117]	Time 0.268s (0.300s)	Speed 372.6 samples/s	Data 0.000s (0.032s)	Loss 0.06037 (0.09586)	Accuracy@1 98.000 (96.396)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:03:37,773 Test: Time 0.400	Loss 0.1240	Error@1 4.204	Error@5 0.000	Accuracy@1 95.796	Accuracy@5 100.000	
+2020-07-16 21:03:37,774 => saving checkpoint to log
+2020-07-16 21:03:41,394 Epoch: [7][0/117]	Time 3.511s (3.511s)	Speed 28.5 samples/s	Data 3.192s (3.192s)	Loss 0.12647 (0.12647)	Accuracy@1 94.000 (94.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:03:46,784 Epoch: [7][20/117]	Time 0.269s (0.424s)	Speed 372.1 samples/s	Data 0.000s (0.152s)	Loss 0.10511 (0.10959)	Accuracy@1 96.000 (95.667)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:03:52,164 Epoch: [7][40/117]	Time 0.266s (0.348s)	Speed 376.4 samples/s	Data 0.001s (0.078s)	Loss 0.03945 (0.09838)	Accuracy@1 99.000 (96.244)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:03:57,546 Epoch: [7][60/117]	Time 0.267s (0.322s)	Speed 374.9 samples/s	Data 0.000s (0.053s)	Loss 0.14484 (0.09746)	Accuracy@1 96.000 (96.311)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:04:02,922 Epoch: [7][80/117]	Time 0.268s (0.309s)	Speed 373.5 samples/s	Data 0.000s (0.040s)	Loss 0.08955 (0.09942)	Accuracy@1 97.000 (96.259)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:04:08,297 Epoch: [7][100/117]	Time 0.270s (0.301s)	Speed 371.0 samples/s	Data 0.000s (0.032s)	Loss 0.11657 (0.10008)	Accuracy@1 95.000 (96.228)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:04:16,803 Test: Time 0.399	Loss 0.1911	Error@1 7.708	Error@5 0.000	Accuracy@1 92.292	Accuracy@5 100.000	
+2020-07-16 21:04:16,803 => saving checkpoint to log
+2020-07-16 21:04:20,359 Epoch: [8][0/117]	Time 3.467s (3.467s)	Speed 28.8 samples/s	Data 3.181s (3.181s)	Loss 0.14360 (0.14360)	Accuracy@1 97.000 (97.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:04:25,756 Epoch: [8][20/117]	Time 0.270s (0.422s)	Speed 370.8 samples/s	Data 0.000s (0.152s)	Loss 0.06055 (0.09089)	Accuracy@1 97.000 (96.571)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:04:31,114 Epoch: [8][40/117]	Time 0.268s (0.347s)	Speed 373.5 samples/s	Data 0.000s (0.078s)	Loss 0.14468 (0.09275)	Accuracy@1 96.000 (96.366)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:04:36,470 Epoch: [8][60/117]	Time 0.267s (0.321s)	Speed 374.9 samples/s	Data 0.000s (0.052s)	Loss 0.03729 (0.09303)	Accuracy@1 99.000 (96.426)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:04:41,831 Epoch: [8][80/117]	Time 0.270s (0.308s)	Speed 369.9 samples/s	Data 0.000s (0.039s)	Loss 0.06404 (0.09234)	Accuracy@1 96.000 (96.444)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:04:47,192 Epoch: [8][100/117]	Time 0.268s (0.300s)	Speed 372.7 samples/s	Data 0.000s (0.032s)	Loss 0.03984 (0.09410)	Accuracy@1 98.000 (96.376)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:04:55,654 Test: Time 0.394	Loss 0.2176	Error@1 7.007	Error@5 0.000	Accuracy@1 92.993	Accuracy@5 100.000	
+2020-07-16 21:04:55,655 => saving checkpoint to log
+2020-07-16 21:04:59,208 Epoch: [9][0/117]	Time 3.476s (3.476s)	Speed 28.8 samples/s	Data 3.185s (3.185s)	Loss 0.07972 (0.07972)	Accuracy@1 96.000 (96.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:05:04,613 Epoch: [9][20/117]	Time 0.269s (0.423s)	Speed 371.3 samples/s	Data 0.000s (0.152s)	Loss 0.09936 (0.08124)	Accuracy@1 97.000 (96.905)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:05:09,989 Epoch: [9][40/117]	Time 0.270s (0.348s)	Speed 370.7 samples/s	Data 0.000s (0.078s)	Loss 0.08531 (0.09226)	Accuracy@1 94.000 (96.585)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:05:15,373 Epoch: [9][60/117]	Time 0.266s (0.322s)	Speed 376.3 samples/s	Data 0.000s (0.052s)	Loss 0.08225 (0.08978)	Accuracy@1 97.000 (96.623)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:05:20,764 Epoch: [9][80/117]	Time 0.269s (0.309s)	Speed 372.1 samples/s	Data 0.001s (0.039s)	Loss 0.08478 (0.08927)	Accuracy@1 98.000 (96.765)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:05:26,139 Epoch: [9][100/117]	Time 0.268s (0.301s)	Speed 373.5 samples/s	Data 0.000s (0.032s)	Loss 0.04867 (0.08872)	Accuracy@1 98.000 (96.792)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:05:34,697 Test: Time 0.401	Loss 0.4582	Error@1 19.019	Error@5 0.000	Accuracy@1 80.981	Accuracy@5 100.000	
+2020-07-16 21:05:34,698 => saving checkpoint to log
+2020-07-16 21:05:38,257 Epoch: [10][0/117]	Time 3.483s (3.483s)	Speed 28.7 samples/s	Data 3.168s (3.168s)	Loss 0.07047 (0.07047)	Accuracy@1 99.000 (99.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:05:43,638 Epoch: [10][20/117]	Time 0.266s (0.422s)	Speed 376.3 samples/s	Data 0.000s (0.151s)	Loss 0.07933 (0.08827)	Accuracy@1 98.000 (96.952)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:05:48,996 Epoch: [10][40/117]	Time 0.267s (0.347s)	Speed 374.9 samples/s	Data 0.001s (0.077s)	Loss 0.04154 (0.08568)	Accuracy@1 98.000 (96.805)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:05:54,345 Epoch: [10][60/117]	Time 0.267s (0.321s)	Speed 374.9 samples/s	Data 0.000s (0.052s)	Loss 0.19867 (0.09455)	Accuracy@1 95.000 (96.443)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:05:59,700 Epoch: [10][80/117]	Time 0.267s (0.308s)	Speed 374.2 samples/s	Data 0.000s (0.039s)	Loss 0.17933 (0.09517)	Accuracy@1 95.000 (96.568)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:06:05,052 Epoch: [10][100/117]	Time 0.267s (0.300s)	Speed 374.9 samples/s	Data 0.000s (0.032s)	Loss 0.02113 (0.09117)	Accuracy@1 100.000 (96.752)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:06:13,545 Test: Time 0.398	Loss 0.2505	Error@1 8.108	Error@5 0.000	Accuracy@1 91.892	Accuracy@5 100.000	
+2020-07-16 21:06:13,545 => saving checkpoint to log
+2020-07-16 21:06:17,117 Epoch: [11][0/117]	Time 3.492s (3.492s)	Speed 28.6 samples/s	Data 3.178s (3.178s)	Loss 0.13342 (0.13342)	Accuracy@1 95.000 (95.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:06:22,544 Epoch: [11][20/117]	Time 0.266s (0.425s)	Speed 375.5 samples/s	Data 0.000s (0.151s)	Loss 0.03908 (0.06991)	Accuracy@1 100.000 (97.714)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:06:27,923 Epoch: [11][40/117]	Time 0.268s (0.349s)	Speed 372.7 samples/s	Data 0.000s (0.078s)	Loss 0.10619 (0.07751)	Accuracy@1 95.000 (97.366)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:06:33,297 Epoch: [11][60/117]	Time 0.266s (0.322s)	Speed 375.9 samples/s	Data 0.000s (0.052s)	Loss 0.13446 (0.08579)	Accuracy@1 93.000 (97.082)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:06:38,682 Epoch: [11][80/117]	Time 0.268s (0.309s)	Speed 373.5 samples/s	Data 0.000s (0.039s)	Loss 0.06338 (0.08605)	Accuracy@1 97.000 (97.099)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:06:44,054 Epoch: [11][100/117]	Time 0.268s (0.301s)	Speed 373.8 samples/s	Data 0.000s (0.032s)	Loss 0.02960 (0.08215)	Accuracy@1 99.000 (97.188)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:06:52,527 Test: Time 0.395	Loss 0.3792	Error@1 11.812	Error@5 0.000	Accuracy@1 88.188	Accuracy@5 100.000	
+2020-07-16 21:06:52,528 => saving checkpoint to log
+2020-07-16 21:06:56,081 Epoch: [12][0/117]	Time 3.474s (3.474s)	Speed 28.8 samples/s	Data 3.145s (3.145s)	Loss 0.14638 (0.14638)	Accuracy@1 96.000 (96.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:07:01,452 Epoch: [12][20/117]	Time 0.268s (0.421s)	Speed 373.5 samples/s	Data 0.000s (0.150s)	Loss 0.01902 (0.08469)	Accuracy@1 100.000 (96.524)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:07:06,828 Epoch: [12][40/117]	Time 0.273s (0.347s)	Speed 366.7 samples/s	Data 0.000s (0.077s)	Loss 0.03914 (0.07215)	Accuracy@1 98.000 (97.073)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:07:12,557 Epoch: [12][60/117]	Time 0.364s (0.327s)	Speed 274.6 samples/s	Data 0.000s (0.052s)	Loss 0.08839 (0.07109)	Accuracy@1 96.000 (97.262)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:07:18,219 Epoch: [12][80/117]	Time 0.268s (0.316s)	Speed 373.5 samples/s	Data 0.000s (0.039s)	Loss 0.02426 (0.07188)	Accuracy@1 99.000 (97.296)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:07:23,577 Epoch: [12][100/117]	Time 0.268s (0.307s)	Speed 372.6 samples/s	Data 0.000s (0.031s)	Loss 0.06134 (0.07301)	Accuracy@1 97.000 (97.277)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:07:32,125 Test: Time 0.402	Loss 0.4871	Error@1 10.110	Error@5 0.000	Accuracy@1 89.890	Accuracy@5 100.000	
+2020-07-16 21:07:32,125 => saving checkpoint to log
+2020-07-16 21:07:35,654 Epoch: [13][0/117]	Time 3.454s (3.454s)	Speed 28.9 samples/s	Data 3.136s (3.136s)	Loss 0.11797 (0.11797)	Accuracy@1 97.000 (97.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:07:41,067 Epoch: [13][20/117]	Time 0.266s (0.422s)	Speed 375.5 samples/s	Data 0.000s (0.150s)	Loss 0.10394 (0.08354)	Accuracy@1 96.000 (97.095)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:07:46,431 Epoch: [13][40/117]	Time 0.268s (0.347s)	Speed 373.5 samples/s	Data 0.000s (0.077s)	Loss 0.09619 (0.07846)	Accuracy@1 97.000 (97.073)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:07:51,830 Epoch: [13][60/117]	Time 0.272s (0.322s)	Speed 368.0 samples/s	Data 0.001s (0.052s)	Loss 0.06640 (0.07761)	Accuracy@1 96.000 (97.148)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:07:57,206 Epoch: [13][80/117]	Time 0.267s (0.309s)	Speed 374.2 samples/s	Data 0.000s (0.039s)	Loss 0.05348 (0.07749)	Accuracy@1 98.000 (97.173)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:08:02,583 Epoch: [13][100/117]	Time 0.271s (0.301s)	Speed 368.6 samples/s	Data 0.000s (0.031s)	Loss 0.05944 (0.07978)	Accuracy@1 98.000 (97.208)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:08:11,133 Test: Time 0.401	Loss 0.0789	Error@1 2.703	Error@5 0.000	Accuracy@1 97.297	Accuracy@5 100.000	
+2020-07-16 21:08:11,134 => saving checkpoint to log
+2020-07-16 21:08:14,759 Epoch: [14][0/117]	Time 3.508s (3.508s)	Speed 28.5 samples/s	Data 3.200s (3.200s)	Loss 0.04386 (0.04386)	Accuracy@1 98.000 (98.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:08:20,146 Epoch: [14][20/117]	Time 0.266s (0.424s)	Speed 375.5 samples/s	Data 0.000s (0.153s)	Loss 0.03730 (0.07837)	Accuracy@1 99.000 (96.952)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:08:25,511 Epoch: [14][40/117]	Time 0.267s (0.348s)	Speed 374.9 samples/s	Data 0.000s (0.078s)	Loss 0.07901 (0.07865)	Accuracy@1 99.000 (97.146)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:08:30,876 Epoch: [14][60/117]	Time 0.267s (0.322s)	Speed 374.2 samples/s	Data 0.000s (0.053s)	Loss 0.07346 (0.08525)	Accuracy@1 96.000 (96.967)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:08:36,243 Epoch: [14][80/117]	Time 0.269s (0.309s)	Speed 372.1 samples/s	Data 0.001s (0.040s)	Loss 0.08848 (0.08447)	Accuracy@1 95.000 (96.864)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:08:41,604 Epoch: [14][100/117]	Time 0.269s (0.301s)	Speed 372.4 samples/s	Data 0.000s (0.032s)	Loss 0.15561 (0.08283)	Accuracy@1 97.000 (96.980)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:08:50,057 Test: Time 0.393	Loss 0.0926	Error@1 3.103	Error@5 0.000	Accuracy@1 96.897	Accuracy@5 100.000	
+2020-07-16 21:08:50,057 => saving checkpoint to log
+2020-07-16 21:08:53,634 Epoch: [15][0/117]	Time 3.495s (3.495s)	Speed 28.6 samples/s	Data 3.190s (3.190s)	Loss 0.03182 (0.03182)	Accuracy@1 99.000 (99.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:08:59,060 Epoch: [15][20/117]	Time 0.270s (0.425s)	Speed 370.8 samples/s	Data 0.001s (0.152s)	Loss 0.12647 (0.08742)	Accuracy@1 97.000 (97.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:09:04,466 Epoch: [15][40/117]	Time 0.277s (0.349s)	Speed 361.3 samples/s	Data 0.000s (0.078s)	Loss 0.08804 (0.07699)	Accuracy@1 98.000 (97.220)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:09:09,886 Epoch: [15][60/117]	Time 0.275s (0.324s)	Speed 364.0 samples/s	Data 0.000s (0.052s)	Loss 0.09723 (0.08081)	Accuracy@1 97.000 (97.098)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:09:15,292 Epoch: [15][80/117]	Time 0.267s (0.311s)	Speed 374.9 samples/s	Data 0.000s (0.039s)	Loss 0.05436 (0.08125)	Accuracy@1 98.000 (97.074)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:09:20,680 Epoch: [15][100/117]	Time 0.268s (0.302s)	Speed 373.5 samples/s	Data 0.000s (0.032s)	Loss 0.09470 (0.07734)	Accuracy@1 97.000 (97.218)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:09:29,169 Test: Time 0.396	Loss 0.5095	Error@1 13.013	Error@5 0.000	Accuracy@1 86.987	Accuracy@5 100.000	
+2020-07-16 21:09:29,170 => saving checkpoint to log
+2020-07-16 21:09:32,699 Epoch: [16][0/117]	Time 3.453s (3.453s)	Speed 29.0 samples/s	Data 3.154s (3.154s)	Loss 0.07432 (0.07432)	Accuracy@1 96.000 (96.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:09:38,072 Epoch: [16][20/117]	Time 0.269s (0.420s)	Speed 372.1 samples/s	Data 0.000s (0.150s)	Loss 0.10295 (0.05739)	Accuracy@1 95.000 (97.857)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:09:43,444 Epoch: [16][40/117]	Time 0.267s (0.346s)	Speed 374.9 samples/s	Data 0.000s (0.077s)	Loss 0.20651 (0.06321)	Accuracy@1 92.000 (97.634)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:09:48,818 Epoch: [16][60/117]	Time 0.271s (0.321s)	Speed 369.4 samples/s	Data 0.001s (0.052s)	Loss 0.04115 (0.06737)	Accuracy@1 99.000 (97.475)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:09:54,186 Epoch: [16][80/117]	Time 0.269s (0.308s)	Speed 372.4 samples/s	Data 0.000s (0.039s)	Loss 0.09182 (0.06877)	Accuracy@1 98.000 (97.444)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:09:59,559 Epoch: [16][100/117]	Time 0.268s (0.300s)	Speed 372.6 samples/s	Data 0.000s (0.031s)	Loss 0.03150 (0.07207)	Accuracy@1 100.000 (97.327)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:10:08,122 Test: Time 0.403	Loss 0.1739	Error@1 6.807	Error@5 0.000	Accuracy@1 93.193	Accuracy@5 100.000	
+2020-07-16 21:10:08,122 => saving checkpoint to log
+2020-07-16 21:10:11,756 Epoch: [17][0/117]	Time 3.556s (3.556s)	Speed 28.1 samples/s	Data 3.266s (3.266s)	Loss 0.05401 (0.05401)	Accuracy@1 98.000 (98.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:10:17,163 Epoch: [17][20/117]	Time 0.272s (0.427s)	Speed 368.0 samples/s	Data 0.000s (0.156s)	Loss 0.08927 (0.06484)	Accuracy@1 97.000 (97.524)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:10:22,562 Epoch: [17][40/117]	Time 0.268s (0.350s)	Speed 373.5 samples/s	Data 0.000s (0.080s)	Loss 0.04584 (0.06884)	Accuracy@1 98.000 (97.341)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:10:27,952 Epoch: [17][60/117]	Time 0.272s (0.324s)	Speed 368.0 samples/s	Data 0.001s (0.054s)	Loss 0.12059 (0.06805)	Accuracy@1 96.000 (97.590)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:10:33,358 Epoch: [17][80/117]	Time 0.278s (0.311s)	Speed 360.0 samples/s	Data 0.000s (0.041s)	Loss 0.05899 (0.06912)	Accuracy@1 99.000 (97.519)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:10:38,783 Epoch: [17][100/117]	Time 0.273s (0.303s)	Speed 365.9 samples/s	Data 0.000s (0.033s)	Loss 0.07181 (0.06692)	Accuracy@1 95.000 (97.545)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:10:47,257 Test: Time 0.395	Loss 0.1020	Error@1 3.804	Error@5 0.000	Accuracy@1 96.196	Accuracy@5 100.000	
+2020-07-16 21:10:47,257 => saving checkpoint to log
+2020-07-16 21:10:50,814 Epoch: [18][0/117]	Time 3.475s (3.475s)	Speed 28.8 samples/s	Data 3.176s (3.176s)	Loss 0.03197 (0.03197)	Accuracy@1 98.000 (98.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:10:56,194 Epoch: [18][20/117]	Time 0.268s (0.422s)	Speed 373.5 samples/s	Data 0.000s (0.151s)	Loss 0.06011 (0.08095)	Accuracy@1 96.000 (96.905)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:11:01,577 Epoch: [18][40/117]	Time 0.271s (0.347s)	Speed 369.4 samples/s	Data 0.000s (0.078s)	Loss 0.06295 (0.07214)	Accuracy@1 98.000 (97.317)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:11:06,980 Epoch: [18][60/117]	Time 0.277s (0.322s)	Speed 361.3 samples/s	Data 0.000s (0.052s)	Loss 0.09351 (0.07158)	Accuracy@1 96.000 (97.246)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:11:12,370 Epoch: [18][80/117]	Time 0.270s (0.309s)	Speed 370.7 samples/s	Data 0.001s (0.039s)	Loss 0.04876 (0.07513)	Accuracy@1 99.000 (97.148)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:11:17,749 Epoch: [18][100/117]	Time 0.269s (0.301s)	Speed 371.4 samples/s	Data 0.000s (0.032s)	Loss 0.04594 (0.07618)	Accuracy@1 98.000 (97.218)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:11:26,212 Test: Time 0.393	Loss 0.1110	Error@1 4.404	Error@5 0.000	Accuracy@1 95.596	Accuracy@5 100.000	
+2020-07-16 21:11:26,212 => saving checkpoint to log
+2020-07-16 21:11:29,775 Epoch: [19][0/117]	Time 3.485s (3.485s)	Speed 28.7 samples/s	Data 3.182s (3.182s)	Loss 0.04470 (0.04470)	Accuracy@1 98.000 (98.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:11:35,199 Epoch: [19][20/117]	Time 0.267s (0.424s)	Speed 374.9 samples/s	Data 0.000s (0.152s)	Loss 0.08090 (0.07195)	Accuracy@1 97.000 (97.571)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:11:40,591 Epoch: [19][40/117]	Time 0.268s (0.349s)	Speed 373.5 samples/s	Data 0.000s (0.078s)	Loss 0.02690 (0.06905)	Accuracy@1 100.000 (97.756)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:11:45,973 Epoch: [19][60/117]	Time 0.267s (0.323s)	Speed 374.9 samples/s	Data 0.000s (0.052s)	Loss 0.08226 (0.06745)	Accuracy@1 97.000 (97.672)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:11:51,389 Epoch: [19][80/117]	Time 0.274s (0.310s)	Speed 365.3 samples/s	Data 0.000s (0.039s)	Loss 0.11877 (0.06924)	Accuracy@1 94.000 (97.568)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:11:56,800 Epoch: [19][100/117]	Time 0.272s (0.302s)	Speed 368.0 samples/s	Data 0.000s (0.032s)	Loss 0.12905 (0.06969)	Accuracy@1 96.000 (97.495)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:12:05,466 Test: Time 0.406	Loss 0.2353	Error@1 7.508	Error@5 0.000	Accuracy@1 92.492	Accuracy@5 100.000	
+2020-07-16 21:12:05,467 => saving checkpoint to log
+2020-07-16 21:12:09,028 Epoch: [20][0/117]	Time 3.484s (3.484s)	Speed 28.7 samples/s	Data 3.198s (3.198s)	Loss 0.01321 (0.01321)	Accuracy@1 100.000 (100.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:12:14,425 Epoch: [20][20/117]	Time 0.267s (0.423s)	Speed 374.2 samples/s	Data 0.000s (0.152s)	Loss 0.05055 (0.06665)	Accuracy@1 98.000 (97.381)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:12:19,817 Epoch: [20][40/117]	Time 0.269s (0.348s)	Speed 372.1 samples/s	Data 0.000s (0.078s)	Loss 0.04661 (0.07248)	Accuracy@1 97.000 (97.366)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:12:25,193 Epoch: [20][60/117]	Time 0.269s (0.322s)	Speed 372.2 samples/s	Data 0.001s (0.053s)	Loss 0.08643 (0.06973)	Accuracy@1 96.000 (97.443)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:12:30,554 Epoch: [20][80/117]	Time 0.266s (0.309s)	Speed 375.3 samples/s	Data 0.000s (0.040s)	Loss 0.01543 (0.06710)	Accuracy@1 99.000 (97.654)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:12:35,924 Epoch: [20][100/117]	Time 0.268s (0.301s)	Speed 373.5 samples/s	Data 0.001s (0.032s)	Loss 0.12111 (0.06968)	Accuracy@1 93.000 (97.505)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:12:44,412 Test: Time 0.397	Loss 0.1521	Error@1 5.205	Error@5 0.000	Accuracy@1 94.795	Accuracy@5 100.000	
+2020-07-16 21:12:44,412 => saving checkpoint to log
+2020-07-16 21:12:47,951 Epoch: [21][0/117]	Time 3.464s (3.464s)	Speed 28.9 samples/s	Data 3.154s (3.154s)	Loss 0.04729 (0.04729)	Accuracy@1 98.000 (98.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:12:53,345 Epoch: [21][20/117]	Time 0.271s (0.422s)	Speed 369.4 samples/s	Data 0.000s (0.150s)	Loss 0.17269 (0.06546)	Accuracy@1 96.000 (97.714)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:12:58,746 Epoch: [21][40/117]	Time 0.271s (0.348s)	Speed 368.7 samples/s	Data 0.000s (0.077s)	Loss 0.08035 (0.06777)	Accuracy@1 97.000 (97.537)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:13:04,140 Epoch: [21][60/117]	Time 0.272s (0.322s)	Speed 368.0 samples/s	Data 0.000s (0.052s)	Loss 0.04016 (0.06702)	Accuracy@1 98.000 (97.623)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:13:09,560 Epoch: [21][80/117]	Time 0.272s (0.310s)	Speed 368.0 samples/s	Data 0.000s (0.039s)	Loss 0.03448 (0.06756)	Accuracy@1 99.000 (97.556)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:13:14,963 Epoch: [21][100/117]	Time 0.268s (0.302s)	Speed 373.5 samples/s	Data 0.000s (0.031s)	Loss 0.07914 (0.06597)	Accuracy@1 96.000 (97.634)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:13:23,446 Test: Time 0.398	Loss 0.2828	Error@1 6.106	Error@5 0.000	Accuracy@1 93.894	Accuracy@5 100.000	
+2020-07-16 21:13:23,447 => saving checkpoint to log
+2020-07-16 21:13:26,956 Epoch: [22][0/117]	Time 3.433s (3.433s)	Speed 29.1 samples/s	Data 3.145s (3.145s)	Loss 0.03401 (0.03401)	Accuracy@1 100.000 (100.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:13:32,354 Epoch: [22][20/117]	Time 0.268s (0.421s)	Speed 373.5 samples/s	Data 0.000s (0.150s)	Loss 0.05231 (0.07464)	Accuracy@1 97.000 (97.048)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:13:37,722 Epoch: [22][40/117]	Time 0.272s (0.346s)	Speed 368.0 samples/s	Data 0.000s (0.077s)	Loss 0.12920 (0.07086)	Accuracy@1 96.000 (97.268)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:13:43,091 Epoch: [22][60/117]	Time 0.270s (0.321s)	Speed 370.8 samples/s	Data 0.000s (0.052s)	Loss 0.05116 (0.06454)	Accuracy@1 99.000 (97.590)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:13:48,481 Epoch: [22][80/117]	Time 0.270s (0.308s)	Speed 370.8 samples/s	Data 0.001s (0.039s)	Loss 0.04179 (0.06285)	Accuracy@1 99.000 (97.679)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:13:53,894 Epoch: [22][100/117]	Time 0.271s (0.301s)	Speed 369.4 samples/s	Data 0.000s (0.031s)	Loss 0.11117 (0.06513)	Accuracy@1 94.000 (97.584)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:14:02,496 Test: Time 0.406	Loss 0.2655	Error@1 10.911	Error@5 0.000	Accuracy@1 89.089	Accuracy@5 100.000	
+2020-07-16 21:14:02,496 => saving checkpoint to log
+2020-07-16 21:14:06,089 Epoch: [23][0/117]	Time 3.515s (3.515s)	Speed 28.5 samples/s	Data 3.179s (3.179s)	Loss 0.04403 (0.04403)	Accuracy@1 98.000 (98.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:14:11,513 Epoch: [23][20/117]	Time 0.267s (0.426s)	Speed 374.2 samples/s	Data 0.000s (0.151s)	Loss 0.05346 (0.08972)	Accuracy@1 98.000 (97.143)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:14:16,900 Epoch: [23][40/117]	Time 0.267s (0.349s)	Speed 374.0 samples/s	Data 0.000s (0.078s)	Loss 0.02679 (0.07446)	Accuracy@1 99.000 (97.390)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:14:22,295 Epoch: [23][60/117]	Time 0.268s (0.323s)	Speed 373.0 samples/s	Data 0.000s (0.052s)	Loss 0.07176 (0.07160)	Accuracy@1 98.000 (97.377)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:14:27,728 Epoch: [23][80/117]	Time 0.271s (0.311s)	Speed 369.4 samples/s	Data 0.000s (0.039s)	Loss 0.05241 (0.07130)	Accuracy@1 98.000 (97.346)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:14:33,145 Epoch: [23][100/117]	Time 0.269s (0.303s)	Speed 372.1 samples/s	Data 0.000s (0.032s)	Loss 0.04655 (0.06926)	Accuracy@1 98.000 (97.396)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:14:41,597 Test: Time 0.391	Loss 0.1023	Error@1 4.104	Error@5 0.000	Accuracy@1 95.896	Accuracy@5 100.000	
+2020-07-16 21:14:41,598 => saving checkpoint to log
+2020-07-16 21:14:45,065 Epoch: [24][0/117]	Time 3.387s (3.387s)	Speed 29.5 samples/s	Data 3.094s (3.094s)	Loss 0.04375 (0.04375)	Accuracy@1 98.000 (98.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:14:50,441 Epoch: [24][20/117]	Time 0.268s (0.417s)	Speed 372.8 samples/s	Data 0.000s (0.147s)	Loss 0.03367 (0.05894)	Accuracy@1 99.000 (97.905)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:14:55,852 Epoch: [24][40/117]	Time 0.280s (0.346s)	Speed 356.7 samples/s	Data 0.000s (0.076s)	Loss 0.05574 (0.05866)	Accuracy@1 98.000 (97.927)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:15:01,256 Epoch: [24][60/117]	Time 0.270s (0.321s)	Speed 370.7 samples/s	Data 0.000s (0.051s)	Loss 0.09524 (0.05674)	Accuracy@1 94.000 (97.836)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:15:06,668 Epoch: [24][80/117]	Time 0.269s (0.309s)	Speed 372.1 samples/s	Data 0.000s (0.038s)	Loss 0.12254 (0.05660)	Accuracy@1 97.000 (97.901)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:15:12,030 Epoch: [24][100/117]	Time 0.267s (0.301s)	Speed 374.2 samples/s	Data 0.000s (0.031s)	Loss 0.07272 (0.05930)	Accuracy@1 97.000 (97.782)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:15:20,507 Test: Time 0.395	Loss 0.4475	Error@1 11.111	Error@5 0.000	Accuracy@1 88.889	Accuracy@5 100.000	
+2020-07-16 21:15:20,508 => saving checkpoint to log
+2020-07-16 21:15:24,023 Epoch: [25][0/117]	Time 3.438s (3.438s)	Speed 29.1 samples/s	Data 3.131s (3.131s)	Loss 0.02459 (0.02459)	Accuracy@1 100.000 (100.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:15:29,453 Epoch: [25][20/117]	Time 0.276s (0.422s)	Speed 362.7 samples/s	Data 0.000s (0.149s)	Loss 0.08239 (0.06048)	Accuracy@1 96.000 (97.952)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:15:34,875 Epoch: [25][40/117]	Time 0.271s (0.349s)	Speed 369.4 samples/s	Data 0.000s (0.076s)	Loss 0.01781 (0.06554)	Accuracy@1 99.000 (97.585)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:15:40,297 Epoch: [25][60/117]	Time 0.272s (0.323s)	Speed 367.3 samples/s	Data 0.000s (0.051s)	Loss 0.03835 (0.06853)	Accuracy@1 98.000 (97.607)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:15:45,751 Epoch: [25][80/117]	Time 0.272s (0.311s)	Speed 368.0 samples/s	Data 0.000s (0.039s)	Loss 0.05690 (0.07349)	Accuracy@1 99.000 (97.407)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:15:51,176 Epoch: [25][100/117]	Time 0.268s (0.303s)	Speed 373.5 samples/s	Data 0.000s (0.031s)	Loss 0.08539 (0.07414)	Accuracy@1 95.000 (97.347)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:15:59,706 Test: Time 0.398	Loss 0.1703	Error@1 5.005	Error@5 0.000	Accuracy@1 94.995	Accuracy@5 100.000	
+2020-07-16 21:15:59,707 => saving checkpoint to log
+2020-07-16 21:16:03,159 Epoch: [26][0/117]	Time 3.378s (3.378s)	Speed 29.6 samples/s	Data 3.089s (3.089s)	Loss 0.03957 (0.03957)	Accuracy@1 99.000 (99.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:16:08,506 Epoch: [26][20/117]	Time 0.269s (0.415s)	Speed 372.1 samples/s	Data 0.000s (0.147s)	Loss 0.04553 (0.04331)	Accuracy@1 97.000 (98.238)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:16:13,864 Epoch: [26][40/117]	Time 0.269s (0.343s)	Speed 372.1 samples/s	Data 0.000s (0.075s)	Loss 0.02380 (0.05298)	Accuracy@1 99.000 (97.902)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:16:19,213 Epoch: [26][60/117]	Time 0.267s (0.319s)	Speed 374.9 samples/s	Data 0.000s (0.051s)	Loss 0.07517 (0.05422)	Accuracy@1 99.000 (98.016)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:16:24,566 Epoch: [26][80/117]	Time 0.272s (0.306s)	Speed 368.0 samples/s	Data 0.000s (0.038s)	Loss 0.09428 (0.05513)	Accuracy@1 97.000 (98.025)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:16:29,931 Epoch: [26][100/117]	Time 0.268s (0.299s)	Speed 373.5 samples/s	Data 0.000s (0.031s)	Loss 0.08202 (0.05330)	Accuracy@1 95.000 (98.050)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:16:38,392 Test: Time 0.396	Loss 0.0975	Error@1 3.504	Error@5 0.000	Accuracy@1 96.496	Accuracy@5 100.000	
+2020-07-16 21:16:38,393 => saving checkpoint to log
+2020-07-16 21:16:41,919 Epoch: [27][0/117]	Time 3.451s (3.451s)	Speed 29.0 samples/s	Data 3.142s (3.142s)	Loss 0.04936 (0.04936)	Accuracy@1 98.000 (98.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:16:47,318 Epoch: [27][20/117]	Time 0.272s (0.421s)	Speed 367.1 samples/s	Data 0.000s (0.150s)	Loss 0.07950 (0.06111)	Accuracy@1 96.000 (97.810)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:16:52,700 Epoch: [27][40/117]	Time 0.266s (0.347s)	Speed 376.3 samples/s	Data 0.000s (0.077s)	Loss 0.05487 (0.06464)	Accuracy@1 99.000 (97.610)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:16:58,092 Epoch: [27][60/117]	Time 0.269s (0.322s)	Speed 372.1 samples/s	Data 0.000s (0.052s)	Loss 0.02016 (0.06462)	Accuracy@1 99.000 (97.656)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:17:03,488 Epoch: [27][80/117]	Time 0.271s (0.309s)	Speed 368.6 samples/s	Data 0.000s (0.039s)	Loss 0.04374 (0.06626)	Accuracy@1 99.000 (97.642)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:17:08,900 Epoch: [27][100/117]	Time 0.276s (0.301s)	Speed 362.0 samples/s	Data 0.000s (0.031s)	Loss 0.03939 (0.06445)	Accuracy@1 99.000 (97.713)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:17:17,372 Test: Time 0.395	Loss 0.1271	Error@1 4.304	Error@5 0.000	Accuracy@1 95.696	Accuracy@5 100.000	
+2020-07-16 21:17:17,372 => saving checkpoint to log
+2020-07-16 21:17:20,802 Epoch: [28][0/117]	Time 3.355s (3.355s)	Speed 29.8 samples/s	Data 3.075s (3.075s)	Loss 0.03064 (0.03064)	Accuracy@1 98.000 (98.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:17:26,165 Epoch: [28][20/117]	Time 0.270s (0.415s)	Speed 370.4 samples/s	Data 0.001s (0.147s)	Loss 0.01540 (0.06277)	Accuracy@1 99.000 (97.667)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:17:31,531 Epoch: [28][40/117]	Time 0.267s (0.344s)	Speed 374.9 samples/s	Data 0.000s (0.075s)	Loss 0.04905 (0.05557)	Accuracy@1 97.000 (97.878)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:17:36,940 Epoch: [28][60/117]	Time 0.267s (0.320s)	Speed 374.3 samples/s	Data 0.000s (0.051s)	Loss 0.02010 (0.06469)	Accuracy@1 99.000 (97.672)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:17:42,325 Epoch: [28][80/117]	Time 0.271s (0.307s)	Speed 369.4 samples/s	Data 0.000s (0.038s)	Loss 0.04487 (0.06201)	Accuracy@1 99.000 (97.728)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:17:47,710 Epoch: [28][100/117]	Time 0.269s (0.300s)	Speed 372.1 samples/s	Data 0.000s (0.031s)	Loss 0.04078 (0.06167)	Accuracy@1 98.000 (97.842)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:17:56,140 Test: Time 0.391	Loss 0.1636	Error@1 7.508	Error@5 0.000	Accuracy@1 92.492	Accuracy@5 100.000	
+2020-07-16 21:17:56,140 => saving checkpoint to log
+2020-07-16 21:17:59,750 Epoch: [29][0/117]	Time 3.533s (3.533s)	Speed 28.3 samples/s	Data 3.238s (3.238s)	Loss 0.07948 (0.07948)	Accuracy@1 98.000 (98.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:18:05,148 Epoch: [29][20/117]	Time 0.271s (0.425s)	Speed 369.4 samples/s	Data 0.000s (0.154s)	Loss 0.02154 (0.05618)	Accuracy@1 99.000 (98.095)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:18:10,525 Epoch: [29][40/117]	Time 0.273s (0.349s)	Speed 366.0 samples/s	Data 0.000s (0.079s)	Loss 0.05673 (0.05581)	Accuracy@1 96.000 (97.927)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:18:15,911 Epoch: [29][60/117]	Time 0.268s (0.323s)	Speed 373.5 samples/s	Data 0.000s (0.053s)	Loss 0.04284 (0.05611)	Accuracy@1 99.000 (97.967)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:18:21,293 Epoch: [29][80/117]	Time 0.269s (0.310s)	Speed 372.1 samples/s	Data 0.001s (0.040s)	Loss 0.05151 (0.05681)	Accuracy@1 97.000 (97.914)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:18:26,715 Epoch: [29][100/117]	Time 0.276s (0.302s)	Speed 362.7 samples/s	Data 0.000s (0.032s)	Loss 0.04886 (0.05818)	Accuracy@1 99.000 (97.822)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:18:35,158 Test: Time 0.392	Loss 0.1906	Error@1 5.706	Error@5 0.000	Accuracy@1 94.294	Accuracy@5 100.000	
+2020-07-16 21:18:35,158 => saving checkpoint to log
+2020-07-16 21:18:38,776 Epoch: [30][0/117]	Time 3.537s (3.537s)	Speed 28.3 samples/s	Data 3.217s (3.217s)	Loss 0.06308 (0.06308)	Accuracy@1 97.000 (97.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:18:44,135 Epoch: [30][20/117]	Time 0.267s (0.424s)	Speed 374.0 samples/s	Data 0.000s (0.153s)	Loss 0.01522 (0.04916)	Accuracy@1 100.000 (98.143)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:18:49,500 Epoch: [30][40/117]	Time 0.268s (0.348s)	Speed 373.5 samples/s	Data 0.000s (0.079s)	Loss 0.06969 (0.05523)	Accuracy@1 98.000 (97.878)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:18:54,877 Epoch: [30][60/117]	Time 0.268s (0.322s)	Speed 373.5 samples/s	Data 0.000s (0.053s)	Loss 0.09034 (0.05744)	Accuracy@1 96.000 (97.770)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:19:00,243 Epoch: [30][80/117]	Time 0.268s (0.309s)	Speed 373.5 samples/s	Data 0.000s (0.040s)	Loss 0.03343 (0.05685)	Accuracy@1 99.000 (97.815)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:19:05,624 Epoch: [30][100/117]	Time 0.268s (0.301s)	Speed 373.5 samples/s	Data 0.000s (0.032s)	Loss 0.06725 (0.05623)	Accuracy@1 98.000 (97.832)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:19:14,133 Test: Time 0.397	Loss 0.0857	Error@1 3.203	Error@5 0.000	Accuracy@1 96.797	Accuracy@5 100.000	
+2020-07-16 21:19:14,133 => saving checkpoint to log
+2020-07-16 21:19:17,689 Epoch: [31][0/117]	Time 3.477s (3.477s)	Speed 28.8 samples/s	Data 3.160s (3.160s)	Loss 0.04753 (0.04753)	Accuracy@1 99.000 (99.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:19:23,103 Epoch: [31][20/117]	Time 0.271s (0.423s)	Speed 369.4 samples/s	Data 0.000s (0.151s)	Loss 0.06422 (0.03963)	Accuracy@1 99.000 (98.619)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:19:28,512 Epoch: [31][40/117]	Time 0.269s (0.349s)	Speed 372.1 samples/s	Data 0.000s (0.077s)	Loss 0.02011 (0.04780)	Accuracy@1 100.000 (98.390)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:19:33,910 Epoch: [31][60/117]	Time 0.268s (0.323s)	Speed 373.5 samples/s	Data 0.000s (0.052s)	Loss 0.12218 (0.05439)	Accuracy@1 99.000 (98.197)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:19:39,303 Epoch: [31][80/117]	Time 0.273s (0.310s)	Speed 366.7 samples/s	Data 0.000s (0.039s)	Loss 0.08738 (0.05414)	Accuracy@1 97.000 (98.136)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:19:44,711 Epoch: [31][100/117]	Time 0.275s (0.302s)	Speed 364.0 samples/s	Data 0.001s (0.031s)	Loss 0.12621 (0.05515)	Accuracy@1 95.000 (98.040)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:19:53,254 Test: Time 0.401	Loss 0.2078	Error@1 6.907	Error@5 0.000	Accuracy@1 93.093	Accuracy@5 100.000	
+2020-07-16 21:19:53,255 => saving checkpoint to log
+2020-07-16 21:19:56,838 Epoch: [32][0/117]	Time 3.483s (3.483s)	Speed 28.7 samples/s	Data 3.193s (3.193s)	Loss 0.15924 (0.15924)	Accuracy@1 94.000 (94.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:20:02,338 Epoch: [32][20/117]	Time 0.268s (0.428s)	Speed 373.5 samples/s	Data 0.000s (0.152s)	Loss 0.04468 (0.07089)	Accuracy@1 99.000 (97.476)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:20:07,896 Epoch: [32][40/117]	Time 0.281s (0.355s)	Speed 355.6 samples/s	Data 0.001s (0.078s)	Loss 0.02791 (0.06332)	Accuracy@1 99.000 (97.732)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:20:13,630 Epoch: [32][60/117]	Time 0.286s (0.332s)	Speed 349.3 samples/s	Data 0.000s (0.053s)	Loss 0.02377 (0.06445)	Accuracy@1 99.000 (97.787)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:20:19,284 Epoch: [32][80/117]	Time 0.279s (0.320s)	Speed 358.8 samples/s	Data 0.001s (0.040s)	Loss 0.01722 (0.06373)	Accuracy@1 100.000 (97.827)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:20:24,760 Epoch: [32][100/117]	Time 0.271s (0.311s)	Speed 369.4 samples/s	Data 0.000s (0.032s)	Loss 0.01741 (0.06094)	Accuracy@1 100.000 (97.871)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:20:33,433 Test: Time 0.409	Loss 0.0622	Error@1 1.702	Error@5 0.000	Accuracy@1 98.298	Accuracy@5 100.000	
+2020-07-16 21:20:33,434 => saving checkpoint to log
+2020-07-16 21:20:37,031 Epoch: [33][0/117]	Time 3.483s (3.483s)	Speed 28.7 samples/s	Data 3.200s (3.200s)	Loss 0.01888 (0.01888)	Accuracy@1 100.000 (100.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:20:42,522 Epoch: [33][20/117]	Time 0.273s (0.427s)	Speed 366.7 samples/s	Data 0.001s (0.153s)	Loss 0.27615 (0.06283)	Accuracy@1 90.000 (98.143)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:20:47,987 Epoch: [33][40/117]	Time 0.271s (0.352s)	Speed 369.4 samples/s	Data 0.001s (0.078s)	Loss 0.05157 (0.06608)	Accuracy@1 99.000 (97.659)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:20:53,472 Epoch: [33][60/117]	Time 0.274s (0.327s)	Speed 365.5 samples/s	Data 0.000s (0.053s)	Loss 0.06439 (0.06217)	Accuracy@1 96.000 (97.705)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:20:58,960 Epoch: [33][80/117]	Time 0.276s (0.314s)	Speed 362.7 samples/s	Data 0.000s (0.040s)	Loss 0.03617 (0.05864)	Accuracy@1 99.000 (97.753)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:21:04,451 Epoch: [33][100/117]	Time 0.278s (0.306s)	Speed 360.0 samples/s	Data 0.000s (0.032s)	Loss 0.20775 (0.05909)	Accuracy@1 95.000 (97.743)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:21:13,165 Test: Time 0.403	Loss 0.6114	Error@1 15.115	Error@5 0.000	Accuracy@1 84.885	Accuracy@5 100.000	
+2020-07-16 21:21:13,166 => saving checkpoint to log
+2020-07-16 21:21:16,867 Epoch: [34][0/117]	Time 3.614s (3.614s)	Speed 27.7 samples/s	Data 3.310s (3.310s)	Loss 0.07319 (0.07319)	Accuracy@1 96.000 (96.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:21:22,311 Epoch: [34][20/117]	Time 0.274s (0.431s)	Speed 364.6 samples/s	Data 0.000s (0.158s)	Loss 0.17679 (0.06690)	Accuracy@1 93.000 (97.667)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:21:27,773 Epoch: [34][40/117]	Time 0.272s (0.354s)	Speed 368.1 samples/s	Data 0.000s (0.081s)	Loss 0.11948 (0.05892)	Accuracy@1 96.000 (97.976)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:21:33,232 Epoch: [34][60/117]	Time 0.274s (0.328s)	Speed 365.6 samples/s	Data 0.001s (0.054s)	Loss 0.03569 (0.05831)	Accuracy@1 98.000 (97.885)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:21:38,701 Epoch: [34][80/117]	Time 0.275s (0.314s)	Speed 363.2 samples/s	Data 0.000s (0.041s)	Loss 0.01467 (0.05689)	Accuracy@1 100.000 (98.025)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:21:44,157 Epoch: [34][100/117]	Time 0.270s (0.306s)	Speed 370.1 samples/s	Data 0.000s (0.033s)	Loss 0.07331 (0.05788)	Accuracy@1 99.000 (97.911)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:21:52,792 Test: Time 0.403	Loss 0.2455	Error@1 6.406	Error@5 0.000	Accuracy@1 93.594	Accuracy@5 100.000	
+2020-07-16 21:21:52,792 => saving checkpoint to log
+2020-07-16 21:21:56,325 Epoch: [35][0/117]	Time 3.454s (3.454s)	Speed 29.0 samples/s	Data 3.176s (3.176s)	Loss 0.07178 (0.07178)	Accuracy@1 98.000 (98.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:22:01,794 Epoch: [35][20/117]	Time 0.271s (0.425s)	Speed 368.5 samples/s	Data 0.001s (0.151s)	Loss 0.03900 (0.05065)	Accuracy@1 98.000 (97.905)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:22:07,271 Epoch: [35][40/117]	Time 0.272s (0.351s)	Speed 368.3 samples/s	Data 0.001s (0.078s)	Loss 0.09044 (0.04869)	Accuracy@1 98.000 (98.122)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:22:12,748 Epoch: [35][60/117]	Time 0.274s (0.326s)	Speed 365.3 samples/s	Data 0.001s (0.052s)	Loss 0.04537 (0.05397)	Accuracy@1 98.000 (97.951)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:22:18,180 Epoch: [35][80/117]	Time 0.270s (0.312s)	Speed 370.7 samples/s	Data 0.000s (0.039s)	Loss 0.05756 (0.05606)	Accuracy@1 97.000 (97.852)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:22:23,640 Epoch: [35][100/117]	Time 0.269s (0.305s)	Speed 372.1 samples/s	Data 0.000s (0.032s)	Loss 0.01789 (0.05442)	Accuracy@1 100.000 (98.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:22:32,295 Test: Time 0.404	Loss 0.3665	Error@1 10.911	Error@5 0.000	Accuracy@1 89.089	Accuracy@5 100.000	
+2020-07-16 21:22:32,296 => saving checkpoint to log
+2020-07-16 21:22:35,867 Epoch: [36][0/117]	Time 3.489s (3.489s)	Speed 28.7 samples/s	Data 3.210s (3.210s)	Loss 0.03401 (0.03401)	Accuracy@1 98.000 (98.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:22:41,366 Epoch: [36][20/117]	Time 0.280s (0.428s)	Speed 356.8 samples/s	Data 0.000s (0.153s)	Loss 0.10196 (0.05030)	Accuracy@1 96.000 (98.190)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:22:46,833 Epoch: [36][40/117]	Time 0.269s (0.353s)	Speed 371.4 samples/s	Data 0.000s (0.079s)	Loss 0.02390 (0.05421)	Accuracy@1 99.000 (97.951)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:22:52,285 Epoch: [36][60/117]	Time 0.274s (0.326s)	Speed 365.5 samples/s	Data 0.000s (0.053s)	Loss 0.06035 (0.05203)	Accuracy@1 99.000 (98.066)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:22:57,718 Epoch: [36][80/117]	Time 0.273s (0.313s)	Speed 366.7 samples/s	Data 0.000s (0.040s)	Loss 0.06796 (0.05452)	Accuracy@1 97.000 (97.951)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:23:03,188 Epoch: [36][100/117]	Time 0.278s (0.305s)	Speed 359.2 samples/s	Data 0.001s (0.032s)	Loss 0.12998 (0.05571)	Accuracy@1 97.000 (97.970)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:23:11,832 Test: Time 0.405	Loss 0.0600	Error@1 1.301	Error@5 0.000	Accuracy@1 98.699	Accuracy@5 100.000	
+2020-07-16 21:23:11,832 => saving checkpoint to log
+2020-07-16 21:23:15,415 Epoch: [37][0/117]	Time 3.467s (3.467s)	Speed 28.8 samples/s	Data 3.184s (3.184s)	Loss 0.04973 (0.04973)	Accuracy@1 97.000 (97.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:23:20,877 Epoch: [37][20/117]	Time 0.271s (0.425s)	Speed 369.4 samples/s	Data 0.000s (0.152s)	Loss 0.02803 (0.05259)	Accuracy@1 100.000 (98.381)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:23:26,343 Epoch: [37][40/117]	Time 0.274s (0.351s)	Speed 365.6 samples/s	Data 0.000s (0.078s)	Loss 0.09406 (0.04834)	Accuracy@1 97.000 (98.488)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:23:31,824 Epoch: [37][60/117]	Time 0.277s (0.326s)	Speed 360.7 samples/s	Data 0.000s (0.052s)	Loss 0.03994 (0.04880)	Accuracy@1 98.000 (98.443)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:23:37,288 Epoch: [37][80/117]	Time 0.272s (0.313s)	Speed 368.0 samples/s	Data 0.000s (0.039s)	Loss 0.11579 (0.04812)	Accuracy@1 97.000 (98.432)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:23:42,765 Epoch: [37][100/117]	Time 0.274s (0.305s)	Speed 364.6 samples/s	Data 0.000s (0.032s)	Loss 0.02931 (0.04969)	Accuracy@1 99.000 (98.347)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:23:51,428 Test: Time 0.405	Loss 0.1258	Error@1 4.805	Error@5 0.000	Accuracy@1 95.195	Accuracy@5 100.000	
+2020-07-16 21:23:51,428 => saving checkpoint to log
+2020-07-16 21:23:55,099 Epoch: [38][0/117]	Time 3.585s (3.585s)	Speed 27.9 samples/s	Data 3.277s (3.277s)	Loss 0.08242 (0.08242)	Accuracy@1 95.000 (95.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:24:00,578 Epoch: [38][20/117]	Time 0.279s (0.432s)	Speed 358.7 samples/s	Data 0.000s (0.156s)	Loss 0.07587 (0.04094)	Accuracy@1 95.000 (98.333)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:24:06,061 Epoch: [38][40/117]	Time 0.273s (0.355s)	Speed 366.0 samples/s	Data 0.000s (0.080s)	Loss 0.02351 (0.04283)	Accuracy@1 99.000 (98.220)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:24:11,515 Epoch: [38][60/117]	Time 0.279s (0.328s)	Speed 358.7 samples/s	Data 0.000s (0.054s)	Loss 0.05084 (0.04281)	Accuracy@1 98.000 (98.246)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:24:16,967 Epoch: [38][80/117]	Time 0.273s (0.314s)	Speed 365.9 samples/s	Data 0.000s (0.041s)	Loss 0.07679 (0.04627)	Accuracy@1 98.000 (98.136)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:24:22,420 Epoch: [38][100/117]	Time 0.271s (0.306s)	Speed 369.4 samples/s	Data 0.001s (0.033s)	Loss 0.16202 (0.04968)	Accuracy@1 97.000 (98.079)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:24:31,105 Test: Time 0.405	Loss 0.1460	Error@1 4.905	Error@5 0.000	Accuracy@1 95.095	Accuracy@5 100.000	
+2020-07-16 21:24:31,106 => saving checkpoint to log
+2020-07-16 21:24:34,653 Epoch: [39][0/117]	Time 3.468s (3.468s)	Speed 28.8 samples/s	Data 3.181s (3.181s)	Loss 0.04588 (0.04588)	Accuracy@1 97.000 (97.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:24:40,109 Epoch: [39][20/117]	Time 0.271s (0.425s)	Speed 369.4 samples/s	Data 0.000s (0.152s)	Loss 0.03599 (0.05813)	Accuracy@1 99.000 (97.810)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:24:45,558 Epoch: [39][40/117]	Time 0.267s (0.351s)	Speed 374.1 samples/s	Data 0.000s (0.078s)	Loss 0.06034 (0.06206)	Accuracy@1 98.000 (97.561)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:24:51,015 Epoch: [39][60/117]	Time 0.272s (0.325s)	Speed 367.2 samples/s	Data 0.000s (0.052s)	Loss 0.04889 (0.05900)	Accuracy@1 99.000 (97.738)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:24:56,465 Epoch: [39][80/117]	Time 0.271s (0.312s)	Speed 369.4 samples/s	Data 0.000s (0.039s)	Loss 0.03423 (0.05806)	Accuracy@1 99.000 (97.741)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:25:01,915 Epoch: [39][100/117]	Time 0.273s (0.304s)	Speed 366.7 samples/s	Data 0.000s (0.032s)	Loss 0.04547 (0.05804)	Accuracy@1 99.000 (97.733)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:25:10,551 Test: Time 0.405	Loss 0.2759	Error@1 7.708	Error@5 0.000	Accuracy@1 92.292	Accuracy@5 100.000	
+2020-07-16 21:25:10,552 => saving checkpoint to log
+2020-07-16 21:25:14,136 Epoch: [40][0/117]	Time 3.507s (3.507s)	Speed 28.5 samples/s	Data 3.203s (3.203s)	Loss 0.00774 (0.00774)	Accuracy@1 100.000 (100.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:25:19,565 Epoch: [40][20/117]	Time 0.269s (0.426s)	Speed 372.1 samples/s	Data 0.000s (0.153s)	Loss 0.02335 (0.04542)	Accuracy@1 99.000 (98.333)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:25:24,983 Epoch: [40][40/117]	Time 0.269s (0.350s)	Speed 371.4 samples/s	Data 0.000s (0.078s)	Loss 0.03659 (0.04587)	Accuracy@1 97.000 (98.293)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:25:30,389 Epoch: [40][60/117]	Time 0.271s (0.324s)	Speed 368.7 samples/s	Data 0.000s (0.053s)	Loss 0.03633 (0.04720)	Accuracy@1 99.000 (98.295)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:25:35,799 Epoch: [40][80/117]	Time 0.271s (0.311s)	Speed 368.5 samples/s	Data 0.000s (0.040s)	Loss 0.08470 (0.05179)	Accuracy@1 97.000 (98.111)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:25:41,211 Epoch: [40][100/117]	Time 0.270s (0.303s)	Speed 370.8 samples/s	Data 0.000s (0.032s)	Loss 0.02586 (0.04834)	Accuracy@1 99.000 (98.218)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:25:49,756 Test: Time 0.398	Loss 0.1625	Error@1 4.705	Error@5 0.000	Accuracy@1 95.295	Accuracy@5 100.000	
+2020-07-16 21:25:49,756 => saving checkpoint to log
+2020-07-16 21:25:53,314 Epoch: [41][0/117]	Time 3.481s (3.481s)	Speed 28.7 samples/s	Data 3.199s (3.199s)	Loss 0.01901 (0.01901)	Accuracy@1 99.000 (99.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:25:58,774 Epoch: [41][20/117]	Time 0.271s (0.426s)	Speed 369.4 samples/s	Data 0.001s (0.152s)	Loss 0.07365 (0.05176)	Accuracy@1 95.000 (98.048)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:26:04,222 Epoch: [41][40/117]	Time 0.271s (0.351s)	Speed 369.5 samples/s	Data 0.000s (0.078s)	Loss 0.07838 (0.05394)	Accuracy@1 96.000 (97.878)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:26:09,650 Epoch: [41][60/117]	Time 0.274s (0.325s)	Speed 364.6 samples/s	Data 0.000s (0.053s)	Loss 0.14549 (0.05527)	Accuracy@1 97.000 (97.869)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:26:15,078 Epoch: [41][80/117]	Time 0.270s (0.312s)	Speed 370.8 samples/s	Data 0.000s (0.040s)	Loss 0.02620 (0.05910)	Accuracy@1 99.000 (97.691)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:26:20,529 Epoch: [41][100/117]	Time 0.271s (0.304s)	Speed 369.4 samples/s	Data 0.001s (0.032s)	Loss 0.01575 (0.05773)	Accuracy@1 99.000 (97.762)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:26:29,122 Test: Time 0.399	Loss 0.2416	Error@1 5.806	Error@5 0.000	Accuracy@1 94.194	Accuracy@5 100.000	
+2020-07-16 21:26:29,122 => saving checkpoint to log
+2020-07-16 21:26:32,708 Epoch: [42][0/117]	Time 3.505s (3.505s)	Speed 28.5 samples/s	Data 3.218s (3.218s)	Loss 0.02233 (0.02233)	Accuracy@1 99.000 (99.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:26:38,146 Epoch: [42][20/117]	Time 0.271s (0.426s)	Speed 368.4 samples/s	Data 0.000s (0.153s)	Loss 0.11752 (0.05452)	Accuracy@1 97.000 (98.333)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:26:43,573 Epoch: [42][40/117]	Time 0.272s (0.350s)	Speed 368.0 samples/s	Data 0.000s (0.079s)	Loss 0.03990 (0.05525)	Accuracy@1 98.000 (98.171)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:26:48,987 Epoch: [42][60/117]	Time 0.269s (0.324s)	Speed 372.1 samples/s	Data 0.000s (0.053s)	Loss 0.09917 (0.05710)	Accuracy@1 95.000 (98.066)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:26:54,416 Epoch: [42][80/117]	Time 0.272s (0.311s)	Speed 367.3 samples/s	Data 0.001s (0.040s)	Loss 0.05588 (0.05759)	Accuracy@1 98.000 (98.062)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:26:59,832 Epoch: [42][100/117]	Time 0.276s (0.303s)	Speed 362.7 samples/s	Data 0.000s (0.032s)	Loss 0.16077 (0.05524)	Accuracy@1 97.000 (98.168)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:27:08,391 Test: Time 0.400	Loss 0.5827	Error@1 8.609	Error@5 0.000	Accuracy@1 91.391	Accuracy@5 100.000	
+2020-07-16 21:27:08,391 => saving checkpoint to log
+2020-07-16 21:27:12,101 Epoch: [43][0/117]	Time 3.631s (3.631s)	Speed 27.5 samples/s	Data 3.356s (3.356s)	Loss 0.01386 (0.01386)	Accuracy@1 100.000 (100.000)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:27:17,587 Epoch: [43][20/117]	Time 0.275s (0.434s)	Speed 364.0 samples/s	Data 0.000s (0.160s)	Loss 0.00539 (0.04756)	Accuracy@1 100.000 (98.333)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:27:23,099 Epoch: [43][40/117]	Time 0.277s (0.357s)	Speed 360.7 samples/s	Data 0.000s (0.082s)	Loss 0.12292 (0.05284)	Accuracy@1 95.000 (98.146)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:27:28,558 Epoch: [43][60/117]	Time 0.274s (0.329s)	Speed 365.3 samples/s	Data 0.000s (0.055s)	Loss 0.04835 (0.04848)	Accuracy@1 98.000 (98.246)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:27:34,051 Epoch: [43][80/117]	Time 0.269s (0.316s)	Speed 371.3 samples/s	Data 0.000s (0.042s)	Loss 0.11673 (0.04800)	Accuracy@1 94.000 (98.259)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:27:39,532 Epoch: [43][100/117]	Time 0.278s (0.308s)	Speed 360.0 samples/s	Data 0.000s (0.033s)	Loss 0.00762 (0.04720)	Accuracy@1 100.000 (98.277)	Accuracy@5 100.000 (100.000)	
+2020-07-16 21:27:48,166 Test: Time 0.401	Loss 0.1265	Error@1 4.404	Error@5 0.000	Accuracy@1 95.596	Accuracy@5 100.000	
+2020-07-16 21:27:48,166 => saving checkpoint to log
+2020-07-16 21:27:51,691 Epoch: [44][0/117]	Time 3.449s (3.449s)	Speed 29.0 samples/s	Data 3.170s (3.170s)	Loss 0.01110 (0.01110)	Accuracy@1 100.000 (100.000)	Accuracy@5 100.000 (100.000)	
