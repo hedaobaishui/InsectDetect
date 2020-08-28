@@ -42,7 +42,7 @@ _C.MODEL.NUM_JOINTS = 17
 _C.MODEL.NUM_CLASSES = 3
 _C.MODEL.TAG_PER_JOINT = True
 _C.MODEL.TARGET_TYPE = 'gaussian'
-_C.MODEL.IMAGE_SIZE = [256, 256]  # width * height, ex: 192 * 256
+_C.MODEL.IMAGE_SIZE = [224, 224]  # width * height, ex: 192 * 256
 # _C.MODEL.IMAGE_SIZE = [224, 224]  # width * height, ex: 192 * 256
 _C.MODEL.HEATMAP_SIZE = [64, 64]  # width * height, ex: 24 * 32
 _C.MODEL.SIGMA = 2
@@ -77,7 +77,7 @@ _C.TRAIN = CN()
 
 _C.TRAIN.LR_FACTOR = 0.1
 # _C.TRAIN.LR_STEP = [90, 110]
-_C.TRAIN.LR_STEP = [50, 70]
+_C.TRAIN.LR_STEP = [40, 60]
 _C.TRAIN.LR = 0.001
 
 _C.TRAIN.OPTIMIZER = 'adam'
@@ -89,19 +89,19 @@ _C.TRAIN.GAMMA2 = 0.0
 
 _C.TRAIN.BEGIN_EPOCH = 0
 # _C.TRAIN.END_EPOCH = 140
-_C.TRAIN.END_EPOCH = 90
+_C.TRAIN.END_EPOCH = 80
 
 _C.TRAIN.RESUME = False
 _C.TRAIN.CHECKPOINT = ''
 
-_C.TRAIN.BATCH_SIZE_PER_GPU = 100
+_C.TRAIN.BATCH_SIZE_PER_GPU = 50
 _C.TRAIN.SHUFFLE = True
 
 # testing
 _C.TEST = CN()
 
 # size of images for each device
-_C.TEST.BATCH_SIZE_PER_GPU = 100
+_C.TEST.BATCH_SIZE_PER_GPU = 70
 # Test Model Epoch
 _C.TEST.FLIP_TEST = False
 _C.TEST.POST_PROCESS = False

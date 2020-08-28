@@ -1,8 +1,5 @@
 # ------------------------------------------------------------------------------
-# Copyright (c) Microsoft
-# Licensed under the MIT License.
-# Written by Bin Xiao (Bin.Xiao@microsoft.com)
-# Modified by Ke Sun (sunk@mail.ustc.edu.cn)
+# Written by hedaobaishui (taisanai@163.com)
 # ------------------------------------------------------------------------------
 
 from __future__ import absolute_import
@@ -27,9 +24,9 @@ import torch.utils.data
 import torch.utils.data.distributed
 import torchvision.datasets as datasets
 import torchvision.transforms as transforms
-from torchvision.models import DenseNet,ShuffleNetV2,MobileNetV2
+import torchvision.models as Tmodels
 import torch.optim as optim
-from CORE.function import train,validate,save_checkpoint
+from CORE.function import train_Distillation,validate,save_checkpoint
 from CONFIG import config,update_config
 from pathlib import Path
 import time
@@ -38,13 +35,6 @@ import logging
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Train classification network')
-
-    # parser.add_argument('--cfg',
-    #                     help='experiment configure file name',
-    #                     required=False,
-    #                     type=str,
-    #                     default='../experiments/cls_hrnet_w18_small_v1_sgd_lr5e-2_wd1e-4_bs32_x100.yaml')
-    # default='../experiments/cls_hrnet_w30_sgd_lr5e-2_wd1e-4_bs32_x100.yaml')
 
     parser.add_argument('--modelDir',
                         help='model directory',
@@ -145,44 +135,35 @@ def create_logger(cfg, traindata_name, phase='train'):
 
 
 def main():
+    # 蒸馏温度系数
+    T = 2
+    pretainded_teacher_model = './savemodel/model_Resnet50.pth.tar'
     args = parse_args()
     logger, final_output_dir, tb_log_dir = create_logger(
         config, args.traindataname, 'train')
-    # copy model file
-    this_dir = os.path.dirname(__file__)
-    # models_dst_dir = os.path.join('./savemodel/', 'models')
-    # if os.path.exists(models_dst_dir):
-    #     shutil.rmtree(models_dst_dir)
-    # shutil.copytree(os.path.join(this_dir, '../lib/models'), models_dst_dir)
-
-    # model = models.densenet121(pretrained=True)
-    # model = densenet._densenet('densenet121', 32, (6, 12, 24, 16), 64,'False', 'False')
-    # model = DenseNet(growth_rate=12, block_config=(6, 12, 24, 16),
-    #              num_init_features=64, bn_size=4, drop_rate=0, num_classes=3)
-    # model = DenseNet(growth_rate=12, block_config=(4, 8, 16, 12),
-    #              num_init_features=64, bn_size=4, drop_rate=0, num_classes=3)
-    #model = ShuffleNetV2([4, 8, 4], [24, 48, 96, 192, 1024],num_classes=3)
-    #model = ShuffleNetV2([4, 8, 4], [24, 48, 96, 192, 1024],num_classes=3)
-    model = MobileNetV2(num_classes=3, width_mult=0.5)
-    gpus = list([0])
-    model = torch.nn.DataParallel(model, device_ids=gpus).cuda()
+    # Teacher model
+    model_resnet50 = Tmodels.resnet50(num_classes=3)
+    # TODO:加载teacher模型
+    model_resnet50.load_state_dict(torch.load(pretainded_teacher_model))
+    model_resnet50 = torch.nn.DataParallel(model_resnet50, device_ids=[0]).cuda()
+    # 固定网络参数
+    for param in model_resnet50.parameters():
+        param.requires_grad = False
+    # Student model
+    model_mobilenetv2 = Tmodels.MobileNetV2(num_classes=3)
+    model_mobilenetv2 = torch.nn.DataParallel(model_mobilenetv2, device_ids=[0]).cuda()
+    # gpus = list([0])
+    # model = torch.nn.DataParallel(model, device_ids=gpus).cuda()
 
     # define loss function (criterion) and optimizer
     criterion = torch.nn.CrossEntropyLoss().cuda()
+    criterion_KL =  torch.nn.KLDivLoss().cuda()
 
-    optimizer = get_optimizer(config, model)
+    optimizer = get_optimizer(config, model_mobilenetv2)
 
     best_perf = 0.0
     best_model = False
     last_epoch = config.TRAIN.BEGIN_EPOCH
-
-    # 使用预训练模型
-    usePreModle = False
-    if usePreModle:
-        logger.info('=> loading pretrained model from {}'.format(args.preModel))
-        checkpoint = torch.load(args.preModel)
-        model.load_state_dict(checkpoint, False)
-
     if config.TRAIN.RESUME:
         model_state_file = os.path.join(final_output_dir,
                                         'checkpoint.pth.tar')
@@ -190,7 +171,7 @@ def main():
             checkpoint = torch.load(model_state_file)
             last_epoch = checkpoint['epoch']
             best_perf = checkpoint['perf']
-            model.module.load_state_dict(checkpoint['state_dict'])
+            model_mobilenetv2.module.load_state_dict(checkpoint['state_dict'])
             optimizer.load_state_dict(checkpoint['optimizer'])
             logger.info("=> loaded checkpoint (epoch {})"
                         .format(checkpoint['epoch']))
@@ -208,24 +189,16 @@ def main():
         )
 
     # Data loading code
-    # traindir = os.path.join(config.DATASET.ROOT, config.DATASET.TRAIN_SET)
-    # traindir = 'G:/Project/yanjingkeji/trainGray/'
-    traindir = '/home/magic/Project/jinyankeji/train_data/train_aug/'
-    # valdir = os.path.join(config.DATASET.ROOT, config.DATASET.TEST_SET)
-    # valdir = 'C:/Users/Administrator/Desktop/train/test/'
-    valdir = '/home/magic/Project/jinyankeji/train_data/test_difficult/board1/board1_b_0.16/'
-    valdir = '/home/magic/Project/jinyankeji/testdata/test2/true/true/board7/'
-    # valdir = 'C:/Users/Administrator/Desktop/train/testGRAY/'
+    traindir = '/home/magic/Data/8_19/train_data_aug/'
+    traindir = '/home/magic/Data/8_19/small_set84/'
+    valdir = '/home/magic/Data/8_19/vaild_data/'
 
     # imagenet mean std
     # normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406],
     #                                  std=[0.229, 0.224, 0.225])
     # rgb data mean std
-    normalize = transforms.Normalize(mean=[0.35307208, 0.43874484, 0.53854634],
-                                     std=[0.28877657, 0.25837516, 0.22828328])
-    # normalize = transforms.Normalize(mean=[0.54390562,0.42947787,0.13272157],
-    #                                  std=[0.23150272,0.27040822,0.15742092])
-
+    normalize = transforms.Normalize(mean=[0.2703114097967692, 0.31799275002263866, 0.3975207719944205],
+                                     std=[0.2534873463261856, 0.23769423511732185, 0.24343107915013384])
     train_dataset = datasets.ImageFolder(
         traindir,
         transforms.Compose([
@@ -237,7 +210,7 @@ def main():
     )
     train_loader = torch.utils.data.DataLoader(
         train_dataset,
-        batch_size=config.TRAIN.BATCH_SIZE_PER_GPU * len(gpus),
+        batch_size=config.TRAIN.BATCH_SIZE_PER_GPU,
         shuffle=True,
         num_workers=config.WORKERS,
         pin_memory=True
@@ -250,7 +223,7 @@ def main():
             transforms.ToTensor(),
             normalize,
         ])),
-        batch_size=config.TEST.BATCH_SIZE_PER_GPU * len(gpus),
+        batch_size=config.TEST.BATCH_SIZE_PER_GPU,
         shuffle=False,
         num_workers=config.WORKERS,
         pin_memory=True
@@ -259,10 +232,10 @@ def main():
     for epoch in range(last_epoch, config.TRAIN.END_EPOCH):
         lr_scheduler.step()
         # train for one epoch
-        train(config, train_loader, model, criterion, optimizer, epoch,
-              './savemodel/')
+        train_Distillation(config, train_loader, model_resnet50, model_mobilenetv2, T,
+                           criterion, criterion_KL, optimizer, epoch, './savemodel/')
         # evaluate on validation set
-        perf_indicator = validate(config, valid_loader, model, criterion,
+        perf_indicator = validate(config, valid_loader, model_mobilenetv2, criterion,
                                   './savemodel/')
 
         if perf_indicator > best_perf:
@@ -275,18 +248,14 @@ def main():
         save_checkpoint({
             'epoch': epoch + 1,
             'model': config.MODEL.NAME,
-            'state_dict': model.module.state_dict(),
+            'state_dict': model_mobilenetv2.module.state_dict(),
             'perf': perf_indicator,
             'optimizer': optimizer.state_dict(),
         }, best_model, final_output_dir, filename='checkpoint.pth.tar')
 
     final_model_state_file = os.path.join('./savemodel/',
-                                          'final_state.pth.tar')
-    # logger.info('saving final model state to {}'.format(
-    #     final_model_state_file))
-    torch.save(model.module.state_dict(), final_model_state_file)
-    # writer_dict['writer'].close()
-
+                                          'model_mobilenetv2.pth.tar')
+    torch.save(model_mobilenetv2.module.state_dict(), final_model_state_file)
 
 if __name__ == '__main__':
     main()
