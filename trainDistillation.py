@@ -190,7 +190,7 @@ def main():
 
     # Data loading code
     traindir = '/home/magic/Data/8_19/train_data_aug/'
-    traindir = '/home/magic/Data/8_19/small_set84/'
+    # traindir = '/home/magic/Data/8_19/small_set84/'
     valdir = '/home/magic/Data/8_19/vaild_data/'
 
     # imagenet mean std

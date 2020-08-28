@@ -163,8 +163,8 @@ def train_Distillation(config, train_loader, model_teacher, model_student,
         output_teacher = model_teacher(input)
         output_student = model_student(input)
         target = target.cuda(non_blocking=True)
-        dis_output = torch.div(output_student, T).cuda()
-        dis_target = torch.div(output_teacher, T).cuda()
+        dis_output = torch.div(torch.softmax(output_student,dim=1), T).cuda()
+        dis_target = torch.div(torch.softmax(output_teacher,dim=1), T).cuda()
 
         loss_classify = criterion(output_student, target)
         loss_distillation = criterion_KL(dis_output, dis_target)
