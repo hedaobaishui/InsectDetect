@@ -1,8 +1,5 @@
 # ------------------------------------------------------------------------------
-# Copyright (c) Microsoft
-# Licensed under the MIT License.
-# Written by Bin Xiao (Bin.Xiao@microsoft.com)
-# Modified by Ke Sun (sunk@mail.ustc.edu.cn)
+# Written by hedaobaishui (taisanai@163.com)
 # ------------------------------------------------------------------------------
 
 from __future__ import absolute_import
@@ -27,7 +24,7 @@ import torch.utils.data
 import torch.utils.data.distributed
 import torchvision.datasets as datasets
 import torchvision.transforms as transforms
-from torchvision.models import DenseNet,ShuffleNetV2,MobileNetV2
+import torchvision.models as Tmodels
 import torch.optim as optim
 from CORE.function import train,validate,save_checkpoint
 from CONFIG import config,update_config
@@ -38,13 +35,6 @@ import logging
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Train classification network')
-
-    # parser.add_argument('--cfg',
-    #                     help='experiment configure file name',
-    #                     required=False,
-    #                     type=str,
-    #                     default='../experiments/cls_hrnet_w18_small_v1_sgd_lr5e-2_wd1e-4_bs32_x100.yaml')
-    # default='../experiments/cls_hrnet_w30_sgd_lr5e-2_wd1e-4_bs32_x100.yaml')
 
     parser.add_argument('--modelDir',
                         help='model directory',
@@ -148,21 +138,8 @@ def main():
     args = parse_args()
     logger, final_output_dir, tb_log_dir = create_logger(
         config, args.traindataname, 'train')
-    # copy model file
-    this_dir = os.path.dirname(__file__)
-    # models_dst_dir = os.path.join('./savemodel/', 'models')
-    # if os.path.exists(models_dst_dir):
-    #     shutil.rmtree(models_dst_dir)
-    # shutil.copytree(os.path.join(this_dir, '../lib/models'), models_dst_dir)
-
-    # model = models.densenet121(pretrained=True)
-    # model = densenet._densenet('densenet121', 32, (6, 12, 24, 16), 64,'False', 'False')
-    # model = DenseNet(growth_rate=12, block_config=(6, 12, 24, 16),
-    #              num_init_features=64, bn_size=4, drop_rate=0, num_classes=3)
-    # model = DenseNet(growth_rate=12, block_config=(4, 8, 16, 12),
-    #              num_init_features=64, bn_size=4, drop_rate=0, num_classes=3)
-    model = ShuffleNetV2([4, 8, 4], [24, 48, 96, 192, 1024],num_classes=3)
-    # model = MobileNetV2(num_classes=3, width_mult=1.0)
+    # model = Tmodels.MobileNetV2(num_classes=3, width_mult=0.5)
+    model = Tmodels.MobileNetV2(num_classes=3)
     gpus = list([0])
     model = torch.nn.DataParallel(model, device_ids=gpus).cuda()
 
@@ -207,23 +184,16 @@ def main():
         )
 
     # Data loading code
-    # traindir = os.path.join(config.DATASET.ROOT, config.DATASET.TRAIN_SET)
-    # traindir = 'G:/Project/yanjingkeji/trainGray/'
-    traindir = '/home/magic/Project/jinyankeji/train_data/train_aug/'
-    # valdir = os.path.join(config.DATASET.ROOT, config.DATASET.TEST_SET)
-    # valdir = 'C:/Users/Administrator/Desktop/train/test/'
-    valdir = '/home/magic/Project/jinyankeji/train_data/test_difficult/board1/board1_b_0.16/'
-    valdir = '/home/magic/Project/jinyankeji/testdata/test2/true/true/board7/'
-    # valdir = 'C:/Users/Administrator/Desktop/train/testGRAY/'
+    traindir = '/home/magic/Data/8_19/train_data_aug/'
+    valdir = '/home/magic/Data/8_19/vaild_data/'
 
     # imagenet mean std
     # normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406],
     #                                  std=[0.229, 0.224, 0.225])
     # rgb data mean std
-    normalize = transforms.Normalize(mean=[0.35307208, 0.43874484, 0.53854634],
-                                     std=[0.28877657, 0.25837516, 0.22828328])
-    # normalize = transforms.Normalize(mean=[0.54390562,0.42947787,0.13272157],
-    #                                  std=[0.23150272,0.27040822,0.15742092])
+    normalize = transforms.Normalize(mean=[0.2703114097967692, 0.31799275002263866, 0.3975207719944205],
+                                     std=[0.2534873463261856, 0.23769423511732185, 0.24343107915013384])
+
 
     train_dataset = datasets.ImageFolder(
         traindir,
@@ -280,12 +250,8 @@ def main():
         }, best_model, final_output_dir, filename='checkpoint.pth.tar')
 
     final_model_state_file = os.path.join('./savemodel/',
-                                          'final_state.pth.tar')
-    # logger.info('saving final model state to {}'.format(
-    #     final_model_state_file))
+                                          'MobileNetv2_nodistil.pth.tar')
     torch.save(model.module.state_dict(), final_model_state_file)
-    # writer_dict['writer'].close()
-
 
 if __name__ == '__main__':
     main()
